@@ -10,13 +10,11 @@ This Node.js script sends emails to recipients from an Excel file, with attachme
 
 ## Installation and Usage
 
-git clone <repo-url> && \
-cd <project-directory> && \
-npm install xlsx nodemailer dotenv && \
-echo -e "SMTP_HOST=smtp.gmail.com\n
-SMTP_PORT=587\n
-SMTP_USER=your_email@example.com\n
-SMTP_PASS=your_email_password"
-.env && \
-node AutoMailSendScript.js
+- git clone <repo-url> .
+- npm install xlsx nodemailer dotenv .
+- SMTP_HOST=smtp.gmail.com .
+- SMTP_PORT=587 .
+- SMTP_USER=your_email@example.com .
+- SMTP_PASS="your_email_password" .
+- node AutoMailSendScript.js
 
